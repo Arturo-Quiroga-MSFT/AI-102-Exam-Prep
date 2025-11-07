@@ -1,16 +1,68 @@
-# Cloning Microsoft Learn Lab Repositories
+# Microsoft Learn Lab Files
 
-This repository contains study guides and documentation for AI-102 exam preparation. The actual lab files are maintained in official Microsoft Learn repositories.
+This repository contains study guides and documentation for AI-102 exam preparation. **The lab files are included as ZIP archives** in the `lab-files/` directory.
 
-## 📥 Clone All Required Lab Repositories
+## 📦 Lab Files Included
 
-Run these commands to get all the hands-on lab materials:
+All official Microsoft Learn lab repositories are provided as ZIP files (~105 MB total):
+
+- ✅ **mslearn-ai-services.zip** (1.6 MB)
+- ✅ **mslearn-ai-vision.zip** (37 MB)
+- ✅ **mslearn-ai-language.zip** (5.3 MB)
+- ✅ **mslearn-ai-document-intelligence.zip** (13 MB)
+- ✅ **mslearn-knowledge-mining.zip** (42 MB)
+- ✅ **mslearn-openai.zip** (5.8 MB)
+
+See `lab-files/README.md` for detailed information about each archive.
+
+## 🚀 Quick Start - Extract Lab Files
+
+### Option 1: Extract All Labs
+```bash
+# Navigate to lab-files directory
+cd lab-files
+
+# Extract all ZIP files (macOS/Linux)
+unzip mslearn-ai-services.zip
+unzip mslearn-ai-vision.zip
+unzip mslearn-ai-language.zip
+unzip mslearn-ai-document-intelligence.zip
+unzip mslearn-knowledge-mining.zip
+unzip mslearn-openai.zip
+
+# Or extract all at once
+unzip '*.zip'
+```
+
+### Option 2: Extract Individual Labs
+```bash
+# Extract only what you need
+cd lab-files
+unzip mslearn-ai-vision.zip
+
+# Navigate to the labs
+cd mslearn-ai-vision-main/Labfiles
+```
+
+### Option 3: Double-Click (GUI)
+- Open the `lab-files/` folder
+- Double-click any ZIP file to extract
+- Start working through the labs!
+
+## 📂 Alternative: Download Directly from GitHub
+
+If you prefer to always have the latest versions, you can download directly:
 
 ```bash
-# Navigate to your workspace
-cd /path/to/your/AI-102-workspace
+# Download latest ZIPs
+curl -L -o mslearn-ai-services.zip "https://github.com/MicrosoftLearning/mslearn-ai-services/archive/refs/heads/main.zip"
+curl -L -o mslearn-ai-vision.zip "https://github.com/MicrosoftLearning/mslearn-ai-vision/archive/refs/heads/main.zip"
+# ... etc
+```
 
-# Clone all Microsoft Learn repositories
+Or clone the repositories (if you want Git history):
+
+```bash
 git clone https://github.com/MicrosoftLearning/mslearn-ai-services.git
 git clone https://github.com/MicrosoftLearning/mslearn-ai-vision.git
 git clone https://github.com/MicrosoftLearning/mslearn-ai-language.git
@@ -19,90 +71,88 @@ git clone https://github.com/MicrosoftLearning/mslearn-knowledge-mining.git
 git clone https://github.com/MicrosoftLearning/mslearn-openai.git
 ```
 
-## 🔄 Or Clone All at Once
-
-```bash
-#!/bin/bash
-# Clone all AI-102 lab repositories
-
-repos=(
-  "mslearn-ai-services"
-  "mslearn-ai-vision"
-  "mslearn-ai-language"
-  "mslearn-ai-document-intelligence"
-  "mslearn-knowledge-mining"
-  "mslearn-openai"
-)
-
-for repo in "${repos[@]}"; do
-  echo "Cloning $repo..."
-  git clone "https://github.com/MicrosoftLearning/$repo.git"
-done
-
-echo "✅ All repositories cloned successfully!"
-```
-
 ## 📚 Repository Links
 
-| Repository | Purpose | Link |
-|------------|---------|------|
-| mslearn-ai-services | AI Services fundamentals, security, monitoring | [Link](https://github.com/MicrosoftLearning/mslearn-ai-services) |
-| mslearn-ai-vision | Computer Vision, OCR, Face, Custom Vision | [Link](https://github.com/MicrosoftLearning/mslearn-ai-vision) |
-| mslearn-ai-language | Text analytics, translation, speech, CLU | [Link](https://github.com/MicrosoftLearning/mslearn-ai-language) |
-| mslearn-ai-document-intelligence | Form extraction, custom models | [Link](https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence) |
-| mslearn-knowledge-mining | Azure AI Search, skillsets, indexing | [Link](https://github.com/MicrosoftLearning/mslearn-knowledge-mining) |
-| mslearn-openai | Azure OpenAI, GPT, embeddings, RAG | [Link](https://github.com/MicrosoftLearning/mslearn-openai) |
+| Repository | Purpose | GitHub Link | ZIP in This Repo |
+|------------|---------|-------------|------------------|
+| mslearn-ai-services | AI Services fundamentals, security, monitoring | [GitHub](https://github.com/MicrosoftLearning/mslearn-ai-services) | ✅ `lab-files/mslearn-ai-services.zip` |
+| mslearn-ai-vision | Computer Vision, OCR, Face, Custom Vision | [GitHub](https://github.com/MicrosoftLearning/mslearn-ai-vision) | ✅ `lab-files/mslearn-ai-vision.zip` |
+| mslearn-ai-language | Text analytics, translation, speech, CLU | [GitHub](https://github.com/MicrosoftLearning/mslearn-ai-language) | ✅ `lab-files/mslearn-ai-language.zip` |
+| mslearn-ai-document-intelligence | Form extraction, custom models | [GitHub](https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence) | ✅ `lab-files/mslearn-ai-document-intelligence.zip` |
+| mslearn-knowledge-mining | Azure AI Search, skillsets, indexing | [GitHub](https://github.com/MicrosoftLearning/mslearn-knowledge-mining) | ✅ `lab-files/mslearn-knowledge-mining.zip` |
+| mslearn-openai | Azure OpenAI, GPT, embeddings, RAG | [GitHub](https://github.com/MicrosoftLearning/mslearn-openai) | ✅ `lab-files/mslearn-openai.zip` |
 
 ## 📁 Recommended Workspace Structure
 
-After cloning, your workspace should look like this:
+After extracting the lab files:
 
 ```
-your-workspace/
-├── AI-102-Exam-Prep/              ← This repository (study guides)
+your-ai-102-workspace/
+├── AI-102-Exam-Prep/                    ← This repository (study guides)
 │   ├── README.md
 │   ├── AI-102-STUDY-GUIDE.md
 │   ├── SETUP-ENVIRONMENT.md
-│   └── QUICK-START-LABS.md
-├── mslearn-ai-services/            ← Lab files
-├── mslearn-ai-vision/              ← Lab files
-├── mslearn-ai-language/            ← Lab files
-├── mslearn-ai-document-intelligence/ ← Lab files
-├── mslearn-knowledge-mining/       ← Lab files
-└── mslearn-openai/                 ← Lab files
+│   ├── QUICK-START-LABS.md
+│   └── lab-files/                       ← ZIP archives
+│       ├── mslearn-ai-services.zip
+│       ├── mslearn-ai-vision.zip
+│       ├── mslearn-ai-language.zip
+│       ├── mslearn-ai-document-intelligence.zip
+│       ├── mslearn-knowledge-mining.zip
+│       └── mslearn-openai.zip
+│
+└── extracted-labs/                      ← Extract ZIPs here (optional)
+    ├── mslearn-ai-services-main/
+    ├── mslearn-ai-vision-main/
+    ├── mslearn-ai-language-main/
+    ├── mslearn-ai-document-intelligence-main/
+    ├── mslearn-knowledge-mining-main/
+    └── mslearn-openai-main/
 ```
 
-## ℹ️ Why Separate Repositories?
+## ℹ️ Why Use ZIP Files?
 
-The Microsoft Learn lab repositories are:
-- **Large** (contain many images, data files, and sample code)
-- **Frequently updated** by Microsoft
-- **Official sources** maintained by Microsoft Learning team
-- Best kept as separate clones so you can pull updates
+**Advantages:**
+- ✅ **No Git conflicts** - Clean, simple file structure
+- ✅ **Version controlled** - ZIPs are tracked in this repo
+- ✅ **Faster downloads** - Single file per repository
+- ✅ **Easy updates** - Replace ZIP files when Microsoft updates
+- ✅ **Smaller repo size** - No nested .git directories
 
-This study guide repository focuses on:
-- Curated documentation and study plans
-- Environment setup guides
-- Quick reference materials
-- Progress tracking
+**When to use Git Clone instead:**
+- You want to contribute back to Microsoft Learning
+- You need full Git history
+- You want to track your own changes with Git
 
-## 🔄 Keeping Labs Updated
+## 🔄 Updating Lab Files
 
-To get the latest lab updates:
+The ZIP files included were downloaded on **November 7, 2025**.
 
+To update to the latest versions:
+
+### Update Individual Repository
 ```bash
-# Update all repositories
-cd mslearn-ai-services && git pull origin main && cd ..
-cd mslearn-ai-vision && git pull origin main && cd ..
-cd mslearn-ai-language && git pull origin main && cd ..
-cd mslearn-ai-document-intelligence && git pull origin main && cd ..
-cd mslearn-knowledge-mining && git pull origin main && cd ..
-cd mslearn-openai && git pull origin main && cd ..
+cd lab-files
+
+# Download latest version
+curl -L -o mslearn-ai-vision.zip "https://github.com/MicrosoftLearning/mslearn-ai-vision/archive/refs/heads/main.zip"
+```
+
+### Update All Repositories
+```bash
+cd lab-files
+
+curl -L -o mslearn-ai-services.zip "https://github.com/MicrosoftLearning/mslearn-ai-services/archive/refs/heads/main.zip"
+curl -L -o mslearn-ai-vision.zip "https://github.com/MicrosoftLearning/mslearn-ai-vision/archive/refs/heads/main.zip"
+curl -L -o mslearn-ai-language.zip "https://github.com/MicrosoftLearning/mslearn-ai-language/archive/refs/heads/main.zip"
+curl -L -o mslearn-ai-document-intelligence.zip "https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence/archive/refs/heads/main.zip"
+curl -L -o mslearn-knowledge-mining.zip "https://github.com/MicrosoftLearning/mslearn-knowledge-mining/archive/refs/heads/main.zip"
+curl -L -o mslearn-openai.zip "https://github.com/MicrosoftLearning/mslearn-openai/archive/refs/heads/main.zip"
 ```
 
 ## 🚀 Quick Start
 
-1. **Clone this study guide repository:**
+1. **Clone or download this repository:**
    ```bash
    git clone https://github.com/Arturo-Quiroga-MSFT/AI-102-Exam-Prep.git
    cd AI-102-Exam-Prep
@@ -113,10 +163,18 @@ cd mslearn-openai && git pull origin main && cd ..
    cat README.md
    ```
 
-3. **Clone the lab repositories** (use script above)
+3. **Extract the lab files you need:**
+   ```bash
+   cd lab-files
+   unzip mslearn-ai-vision.zip
+   cd mslearn-ai-vision-main/Labfiles
+   ```
 
 4. **Start your first lab!**
+   - Follow instructions in `Instructions/Labs/` folder
+   - Configure Azure credentials
+   - Run the exercises
 
 ---
 
-**Note:** These are official Microsoft Learning repositories. We don't include them as submodules to keep this repository lightweight and to allow you to manage lab updates independently.
+**Note:** Lab ZIP files are included in this repository for convenience. They contain official Microsoft Learning content (MIT License) and are updated periodically.
