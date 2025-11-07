@@ -8,27 +8,32 @@
 
 ## 📚 What's Included
 
-This workspace contains **ALL official Microsoft Learn repositories** with hands-on labs for the AI-102 certification exam, plus comprehensive study guides.
+This repository contains **comprehensive study guides and documentation** for the AI-102 certification exam. 
 
-### ✅ Repository Status
+> **Note:** The hands-on lab files are maintained in separate official Microsoft Learn repositories. See **[CLONING-LABS.md](CLONING-LABS.md)** for instructions on cloning all required lab repositories.
 
-| Repository | Status | Labs | Topics |
-|------------|--------|------|--------|
-| **mslearn-ai-services** | ✅ Cloned | 5 | AI Services fundamentals, security, monitoring |
-| **mslearn-ai-vision** | ✅ Cloned | 9 | Computer Vision, OCR, Face, Custom Vision |
-| **mslearn-ai-language** | ✅ Cloned | Multiple | Text analytics, translation, speech, CLU |
-| **mslearn-ai-document-intelligence** | ✅ Cloned | 4 | Form extraction, custom models |
-| **mslearn-knowledge-mining** | ✅ Cloned | Multiple | Azure AI Search, skillsets, indexing |
-| **mslearn-openai** | ✅ Cloned | Multiple | Azure OpenAI, GPT, embeddings, RAG |
+### ✅ Microsoft Learn Lab Repositories (Clone Separately)
 
-### 📖 Study Guides Created
+| Repository | Labs | Topics |
+|------------|------|--------|
+| **mslearn-ai-services** | 5 | AI Services fundamentals, security, monitoring |
+| **mslearn-ai-vision** | 9 | Computer Vision, OCR, Face, Custom Vision |
+| **mslearn-ai-language** | Multiple | Text analytics, translation, speech, CLU |
+| **mslearn-ai-document-intelligence** | 4 | Form extraction, custom models |
+| **mslearn-knowledge-mining** | Multiple | Azure AI Search, skillsets, indexing |
+| **mslearn-openai** | Multiple | Azure OpenAI, GPT, embeddings, RAG |
+
+**→ [See CLONING-LABS.md for detailed instructions](CLONING-LABS.md)**
+
+### 📖 Study Guides in This Repository
 
 | Document | Purpose | Status |
 |----------|---------|--------|
+| **README.md** | This file - central navigation hub | ✅ Created |
 | **AI-102-STUDY-GUIDE.md** | Complete exam overview, study path, progress tracking | ✅ Created |
 | **SETUP-ENVIRONMENT.md** | Dev environment setup, tools installation | ✅ Created |
 | **QUICK-START-LABS.md** | Lab examples, code samples, quick start guide | ✅ Created |
-| **README.md** | This file - central navigation hub | ✅ Created |
+| **CLONING-LABS.md** | Instructions for cloning Microsoft Learn lab repositories | ✅ Created |
 
 ---
 
@@ -457,18 +462,23 @@ az cognitiveservices account list-usage \
 
 ### Your Workspace Structure:
 ```
-/Users/arturoquiroga/AI-102 EXAM/
-├── 📖 AI-102-STUDY-GUIDE.md          ← Comprehensive study plan
-├── 🛠️ SETUP-ENVIRONMENT.md           ← Environment setup
-├── 🚀 QUICK-START-LABS.md            ← Lab quick start guide
-├── 📋 README.md                       ← This file (central hub)
-├── 📁 mslearn-ai-services/           ← Foundation labs
-├── 📁 mslearn-ai-vision/             ← Computer Vision labs
-├── 📁 mslearn-ai-language/           ← Language & Speech labs
-├── 📁 mslearn-ai-document-intelligence-main/  ← Document AI labs
-├── 📁 mslearn-knowledge-mining/      ← Search labs
-└── 📁 mslearn-openai/                ← Generative AI labs
+your-ai-102-workspace/
+├── 📘 AI-102-Exam-Prep/              ← This repository (study guides)
+│   ├── README.md                      ← Central navigation hub
+│   ├── AI-102-STUDY-GUIDE.md         ← Comprehensive study plan
+│   ├── SETUP-ENVIRONMENT.md          ← Environment setup
+│   ├── QUICK-START-LABS.md           ← Lab quick start guide
+│   └── CLONING-LABS.md               ← How to clone lab repos
+│
+├── 📁 mslearn-ai-services/           ← Clone from Microsoft Learn
+├── 📁 mslearn-ai-vision/             ← Clone from Microsoft Learn
+├── 📁 mslearn-ai-language/           ← Clone from Microsoft Learn
+├── 📁 mslearn-ai-document-intelligence/ ← Clone from Microsoft Learn
+├── 📁 mslearn-knowledge-mining/      ← Clone from Microsoft Learn
+└── 📁 mslearn-openai/                ← Clone from Microsoft Learn
 ```
+
+**To clone the lab repositories:** See [CLONING-LABS.md](CLONING-LABS.md)
 
 ### Next Step:
 ```bash
