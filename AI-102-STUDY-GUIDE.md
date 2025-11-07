@@ -235,6 +235,253 @@ Track your progress by marking completed labs:
 - [ ] Generate Embeddings
 - [ ] Responsible AI
 
+## 📝 Practice Exam Questions
+
+### Microsoft Learn Knowledge Checks
+
+Each Microsoft Learn module includes built-in knowledge check questions. These are excellent for self-assessment and mirror the style of actual exam questions.
+
+#### How to Access Practice Questions:
+
+1. **Visit Microsoft Learn AI-102 Path:**
+   - [AI-102: Design and Implement an Azure AI Solution](https://learn.microsoft.com/training/courses/ai-102t00)
+   - Each module ends with a "Knowledge check" section
+
+2. **Key Learning Paths with Practice Questions:**
+
+   **Path 1: Get Started with AI on Azure**
+   - Introduction to AI on Azure
+   - Create and consume Azure AI services
+   - Secure Azure AI services
+   - Monitor Azure AI services
+   - Deploy AI services in containers
+   - **Practice Questions:** ~5 per module
+
+   **Path 2: Create Computer Vision Solutions**
+   - Analyze images with Azure AI Vision
+   - Classify images with Custom Vision
+   - Detect objects in images
+   - Detect and analyze faces
+   - Read text with Computer Vision
+   - Analyze videos
+   - **Practice Questions:** ~5-7 per module
+
+   **Path 3: Develop Natural Language Processing Solutions**
+   - Analyze text with Azure AI Language
+   - Build question answering solutions
+   - Build conversational language understanding models
+   - Create custom text classification solutions
+   - Create custom named entity recognition solutions
+   - Translate text and speech
+   - Create speech-enabled apps
+   - **Practice Questions:** ~6-8 per module
+
+   **Path 4: Develop Knowledge Mining Solutions**
+   - Create Azure AI Search solutions
+   - Enrich search index with AI
+   - Implement knowledge stores
+   - **Practice Questions:** ~5-6 per module
+
+   **Path 5: Develop Generative AI Solutions**
+   - Fundamentals of Generative AI
+   - Get started with Azure OpenAI Service
+   - Build apps with Azure OpenAI
+   - Apply prompt engineering with Azure OpenAI
+   - Generate code with Azure OpenAI
+   - Generate images with Azure OpenAI
+   - Implement Retrieval Augmented Generation (RAG)
+   - **Practice Questions:** ~5-7 per module
+
+### Sample Question Topics (Based on Microsoft Learn)
+
+#### Azure AI Services Fundamentals
+- Which authentication method provides the most secure access?
+- How do you monitor API usage and costs?
+- What are the benefits of deploying AI services in containers?
+- Which pricing tier should you use for production workloads?
+
+#### Computer Vision
+- Which API should you use to detect faces in images?
+- How do you train a custom image classification model?
+- What's the difference between image analysis and OCR?
+- Which service detects objects with bounding boxes?
+
+#### Natural Language Processing
+- How do you detect the language of text?
+- Which service is best for sentiment analysis?
+- What's the difference between language detection and translation?
+- How do you implement conversational AI with intents and entities?
+
+#### Speech Services
+- Which format is required for speech recognition?
+- How do you customize speech synthesis voices?
+- What's the difference between speech-to-text and translation?
+
+#### Document Intelligence
+- Which prebuilt model analyzes invoices?
+- How do you train a custom extraction model?
+- What's the minimum number of training documents needed?
+- How do you compose multiple models?
+
+#### Azure AI Search
+- What's the purpose of an indexer?
+- How do you enrich search results with AI?
+- Which skillset adds OCR to documents?
+- How do you implement semantic ranking?
+
+#### Azure OpenAI
+- What's the difference between GPT-3.5 and GPT-4?
+- How do you implement few-shot learning?
+- What are embeddings used for?
+- How do you implement content filtering?
+
+### Official Microsoft Practice Assessment
+
+**Free Practice Test:**
+- [AI-102 Official Practice Assessment](https://learn.microsoft.com/credentials/certifications/azure-ai-engineer/practice/assessment?assessment-type=practice&assessmentId=61)
+- **Format:** ~50 questions, same format as real exam
+- **Features:**
+  - Immediate feedback on answers
+  - Detailed explanations for each question
+  - Identifies knowledge gaps
+  - Can retake unlimited times
+
+**How to Use the Practice Assessment:**
+1. Take it BEFORE studying (baseline)
+2. Review incorrect answers thoroughly
+3. Study the topics you missed
+4. Retake after completing learning paths
+5. Aim for 85%+ score before scheduling exam
+
+### Third-Party Practice Resources
+
+#### Recommended Practice Exam Providers:
+
+1. **MeasureUp** (Official Microsoft Practice Tests)
+   - Most realistic exam simulation
+   - ~120 questions per practice test
+   - Detailed explanations
+   - Cost: ~$99-129
+   - [MeasureUp AI-102](https://www.measureup.com/microsoft-practice-test-ai-102.html)
+
+2. **Whizlabs**
+   - ~200+ practice questions
+   - Full-length mock exams
+   - Cost: ~$29-39
+   - Good for additional practice
+
+3. **Udemy Practice Tests**
+   - Various instructors offer practice tests
+   - ~100-200 questions
+   - Cost: ~$15-30 (often on sale)
+   - Read reviews before purchasing
+
+4. **ExamTopics** (Community-driven)
+   - Free access to community-shared questions
+   - Discussions and explanations
+   - Quality varies - verify answers
+   - Good supplement, not primary resource
+
+### Practice Strategy
+
+#### Week-by-Week Practice Plan:
+
+**Weeks 1-2: During Foundation Learning**
+- Complete Microsoft Learn knowledge checks after each module
+- Don't skip - they reinforce learning
+- Review wrong answers immediately
+
+**Weeks 3-6: During Core Learning**
+- Continue knowledge checks
+- Start noting difficult topics
+- Create flashcards for concepts you miss
+
+**Week 7: First Practice Exam**
+- Take official Microsoft Practice Assessment
+- Score your baseline (don't worry if low!)
+- Document all missed topics
+- Create study plan for gaps
+
+**Week 8: Targeted Review**
+- Study weak areas from practice exam
+- Redo relevant Microsoft Learn modules
+- Complete corresponding hands-on labs
+
+**Week 9: Practice Exam Sprint**
+- Take 2-3 full practice exams
+- Review all incorrect answers
+- Focus on exam technique (time management)
+- Understand WHY answers are correct/incorrect
+
+**Week 10: Final Review & Scheduling**
+- Retake official practice assessment
+- Aim for 85%+ score
+- If ready, schedule exam
+- If not, extend study by 1-2 weeks
+
+### Exam Day Tips (from Microsoft Learn)
+
+**Question Types to Expect:**
+- **Multiple Choice** - Select one correct answer
+- **Multiple Answer** - Select all correct answers (2-4 typically)
+- **Drag and Drop** - Match items or order steps
+- **Case Studies** - Multi-question scenarios
+- **Hot Area** - Click on correct part of image/diagram
+- **Review Screen** - Flag questions to review later
+
+**Time Management:**
+- 100-120 minutes for ~60 questions
+- ~2 minutes per question average
+- Flag difficult questions, move on, return later
+- Case studies take longer - allocate extra time
+
+**Common Traps:**
+- "Most appropriate" vs "possible" solutions
+- Reading too fast and missing keywords like "NOT"
+- Overthinking simple questions
+- Ignoring resource constraints in scenarios
+
+### Study Resources for Weak Areas
+
+If practice exams reveal knowledge gaps, focus on these resources:
+
+**For Vision Services:**
+- [Computer Vision Documentation](https://learn.microsoft.com/azure/ai-services/computer-vision/)
+- Hands-on: Complete ALL labs in mslearn-ai-vision
+
+**For Language Services:**
+- [Azure AI Language Documentation](https://learn.microsoft.com/azure/ai-services/language-service/)
+- Practice: Build your own chatbot or Q&A solution
+
+**For Speech:**
+- [Speech Service Documentation](https://learn.microsoft.com/azure/ai-services/speech-service/)
+- Experiment: Try different voices and languages
+
+**For Document Intelligence:**
+- [Document Intelligence Documentation](https://learn.microsoft.com/azure/ai-services/document-intelligence/)
+- Practice: Train a custom model on your own forms
+
+**For Azure OpenAI:**
+- [Azure OpenAI Documentation](https://learn.microsoft.com/azure/ai-services/openai/)
+- Experiment: Try different prompting techniques
+
+### Progress Tracking for Practice Questions
+
+Track your practice exam scores:
+
+```
+Date: ______ | Source: Microsoft Practice Assessment | Score: ____%
+Weak areas: ___________________________________________
+
+Date: ______ | Source: MeasureUp | Score: ____%
+Weak areas: ___________________________________________
+
+Date: ______ | Source: Microsoft Practice Assessment (Retake) | Score: ____%
+Improvement: ___________________________________________
+
+Exam Ready?: [ ] Yes, 85%+ on practice exams [ ] Not yet, continue studying
+```
+
 ## 🎓 Next Steps After Completion
 
 1. **Schedule Your Exam:** [Pearson VUE](https://www.pearsonvue.com/microsoft)
